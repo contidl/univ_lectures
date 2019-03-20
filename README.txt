@@ -2,7 +2,7 @@
 
 This repository contains the material for 
 
-Continental lectures delivered on site at universities. 
+Lectures delivered on site at universities. 
 
 The main material is a series of jupyter notebooks.
 
@@ -17,18 +17,12 @@ In order to make the collaboration efficient I have created an environment gener
 		https://www.anaconda.com/download/
 
 		Run the following command in Anaconda Prompt (you can find in the start menu) 
-		to create the conda environment:
-
+		to create the conda environment. Commands should be executed within the directory where the code is located e.g. D:\github\univ_lectures-master\
+		
 		c> conda create --name ceu_course --file env\conda_env.txt
 		c> activate ceu_course
 		c> pip install -r env\requirements.txt
-
-	Upgrade environment:
-
-		c> activate ceu_course
-		c> conda install --file env\conda_env.txt
-		c> pip install -r env\requirements.txt	
-
+		
 	Enable codefolding and table of contents:
 	
 		c> jupyter contrib nbextension install --user
